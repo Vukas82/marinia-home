@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marinia</title>
+    <link rel="stylesheet" href="./Font/stylesheet.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/uikit.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- ligh slider -->
+    <script src="https://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script src="/js/lightslider.js"></script>
+    <script src="/js/uikit-icons.js"></script>
+    <script src="/js/uikit.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- Do not include both lightslider.js and lightslider.min.js -->
+
+
+</head>
+
+<body>
+
+    <div class="grid">
+        <header class="navbar" style="">
+            <div class="h__top">
+                <!-- <div class="header__wrap"> -->
+                <div class="design">
+                    <p>Designer clothing USA</p>
+                </div>
+                <div class="shipping">
+                    <p>Free shipping. Free returns.</p>
+                </div>
+                <div class="mail">
+                    <a href="#">sales@marinia.com</a>
+                </div>
+                <!-- </div> -->
+            </div>
+            <div class="header__wrap">
+                <div class="h__bottom">
+                    <div class="logo">
+                        <span>
+                            <img src="./images/Marinia logo image.png" alt="">
+                        </span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <!-- <li>
+                                <h2><a href="#">New Look</a></h2>
+                            </li> -->
+
+                            <li class="dropdown">
+                                <!-- <button class="dropbtn">Dropdown</button> -->
+                                <h2 class="dropbtn"><a href="#">New Look</a></h2>
+                                <div class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <h2><a href="#">Dresses</a></h2>
+                            </li>
+                            <li>
+                                <h2><a href="#">Skirts</a></h2>
+                            </li>
+                            <li>
+                                <h2><a href="#">Shirts</a></h2>
+                            </li>
+                            <li>
+                                <h2><a href="#">Sale</a></h2>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="nav__desno">
+                        <ul>
+                            <li><a href="#"><span><img class="bag" src="./images/shopping-cart.svg" alt=""></span></a>
+                            </li>
+                            <li>
+                                <h2><a href="#"><span>Sign in</span></a></h2>
+                            </li>
+                            <li><a href="#"><span><img src="/images/search.svg" alt=""></span></a></li>
+                            <li><a href="#"><span>EN</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- nav menu za small screen -->
+        <nav id="nav-small" class="navbar2 nav-small" style="">
+            <div class="logo2"></div>
+            <ul id="navbar" class="navbar-list-expanded" style="display: none">
+                <li class="dropdown">
+                    <!-- <button class="dropbtn">Dropdown</button> -->
+                    <!-- <h2 class="dropbtn"><a href="#">New Look</a></h2> -->
+                    <a href="#">New Look</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li> <a class="nav-li-small " href="#">Dresses</a></li>
+                <li> <a class="nav-li-small " href="#">Skirts</a></li>
+                <li> <a class="nav-li-small " href="#">Shirts</a></li>
+                <li> <a class="nav-li-small " href="#">Sale</a></li>
+                <li><a href="#"><span><img class="bag" src="./images/shopping-cart.svg" alt=""></span></a>
+                </li>
+                <li>
+                    <a href="#"><span>Sign in</span></a>
+                </li>
+                <li><a href="#"><span><img src="/images/search.svg" alt=""></span></a></li>
+                <li><a href="#"><span>EN</span></a></li>
+
+            </ul>
+            <div class="small-drop-btn" aria-expanded="false" id="btn" onclick="toggle('navbar', 'btn')">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </nav>
+        <!-- --------------------------------- -->
+        <div class="slider">
+            <!-- <img src="/images/image_2019_06_03T11_11_55_799Z.png" alt=""> -->
+            <!-- <img src="/images/main__slika.jpg" alt=""> -->
+            <ul id="lightSlider">
+                <li>
+                    <!-- <h3>First Slide</h3>
+                    <p>Lorem ipsum Cupidatat quis pariatur anim.</p> -->
+                    <img src="/images/image_2019_06_03T11_11_55_799Z.png" alt="">
+                </li>
+                <li>
+                    <!-- <h3>Second Slide</h3>
+                    <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p> -->
+                    <img src="/images/image_2019_06_03T11_11_55_799Z.png" alt="">
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="categories">
+            <h2>categories</h2>
+            <div class="show">
+                <div class="img__show img__1"><img src="/images/slika__1.jpg" alt="">
+                    <p>Dresses</p>
+                </div>
+                <div class="img__show img__2"><img src="/images/slika__2.jpg" alt="">
+                    <p>Skirts</p>
+                </div>
+                <div class="img__show img__3"><img src="/images/slika__3.jpg" alt="">
+                    <p>Shirts</p>
+                </div>
+                <div class="img__show img__4"><img src="/images/slika__4.jpg" alt="">
+                    <p>Skirts</p>
+                </div>
+                <div class="img__show img__5"><img src="/images/slika__5.jpg" alt="">
+                    <p>Dresses</p>
+                </div>
+                <div class="img__show img__6"><img src="/images/slika__6.jpg" alt="">
+                    <p>Shirts</p>
+                </div>
+            </div>
+        </div>
+        <!-- end of categories -->
+
+        <section class="showcase">
+            <div class="showcase__wraper">
+                <!-- <div class="models"> -->
+                <div class="model__1"><img src="/images/slika__7.jpg" alt="">
+                    <h4>mini dresses</h4>
+                </div>
+                <div class="model__2"><img src="/images/slika__8.jpg" alt="">
+                    <h4>maxi dresses</h4>
+                </div>
+                <div class="model__3"><img src="/images/slika__9.jpg" alt="">
+                    <h4>jackets</h4>
+                </div>
+                <div class="model__4"><img src="/images/slika__10.jpg" alt="">
+                    <h4>skirts</h4>
+                </div>
+                <!-- </div> -->
+            </div>
+        </section>
+        <!-- end of showcase -->
+        <div class="bestsellers">
+            <h3>Our Bestsellers</h3>
+            <div class="slider__mini">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true"
+                    uk-slider="autoplay-interval: 3000">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                        <li>
+                            <img src="images/slika__11.jpg" alt="">
+                            <div class="inner">
+                                <!-- <h1>1</h1> -->
+                                <p>Fanci shirt</p>
+                                <p>from 20$</p>
+                                <a href="#">More info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slika__12.jpg" alt="">
+                            <div class="inner">
+                                <p>Fanci shirt</p>
+                                <p>from 20$</p>
+                                <a href="#">More info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slika__13.jpg" alt="">
+                            <div class="inner">
+                                <p>Fanci shirt</p>
+                                <p>from 20$</p>
+                                <a href="#">More info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slika__14.jpg" alt="">
+                            <div class="inner">
+                                <p>Fanci shirt</p>
+                                <p>from 20$</p>
+                                <a href="#">More info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slika__13.jpg" alt="">
+                            <div class="inner">
+                                <p>Fanci shirt</p>
+                                <p>from 20$</p>
+                                <a href="#">More info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slika__14.jpg" alt="">
+                            <div class="inner">
+                                <p>Fanci shirt</p>
+                                <p>from 20$</p>
+                                <a href="#">More info</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                        uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                        uk-slider-item="next"></a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- end of bestsellers -->
+        <section class="news">
+            <h5>News</h5>
+            <div class="news__grid">
+                <div class="new__1 new__grid__inner">
+                    <div class="new__img__1 new__img__grid">
+                        <img src="/images/slika__15.jpg" alt="">
+                    </div>
+                    <div class="new__text__1">
+                        <h5>New Collection presented at the Paris fashion show</h5>
+                        <p>Paris crowd welcomend our new colection with great reviews and standing ovation</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+
+                <div class="new__2 new__grid__inner">
+                    <div class="new__img__2 new__img__grid">
+                        <img src="/images/slika__16.jpg" alt="">
+                    </div>
+                    <div class="new__text__1">
+                        <h5>New Collection presented at the Paris fashion show</h5>
+                        <p>Paris crowd welcomend our new colection with great reviews and standing ovation</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="new__3 new__grid__inner">
+                    <div class="new__img__3 new__img__grid">
+                        <img src="/images/slika__17.jpg" alt="">
+                    </div>
+                    <div class="new__text__1">
+                        <h5>New Collection presented at the Paris fashion show</h5>
+                        <p>Paris crowd welcomend our new colection with great reviews and standing ovation</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="new__4 new__grid__inner">
+                    <div class="new__img__4 new__img__grid">
+                        <img src="/images/slika__18.jpg" alt="">
+                    </div>
+                    <div class="new__text__1">
+                        <h5>New Collection presented at the Paris fashion show</h5>
+                        <p>Paris crowd welcomend our new colection with great reviews and standing ovation</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- end of bestsellers -->
+        <section class="video">
+            <h5>MARINIA FASHION VIDEO</h5>
+            <div class="video__player">
+                <img src="/images/video.jpg" alt="">
+            </div>
+            <!-- <h6>DONT <span class="be">BE</span> WANNA <span class="be">BE</span> JUST <span class="be">BE</span></h6> -->
+            <div class="msg">
+                <img src="./images/msg.jpg" alt="">
+            </div>
+        </section>
+        <!-- end of video -->
+        <footer>
+
+        </footer>
+    </div>
+    <!-- end of grid -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#lightSlider").lightSlider();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#lightSlider").lightSlider({
+                item: 1,
+                autoWidth: false,
+                slideMove: 1, // slidemove will be 1 if loop is true
+                slideMargin: 0,
+
+                addClass: '',
+                mode: "slide",
+                useCSS: true,
+                cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+                easing: 'linear', //'for jquery animation',////
+
+                speed: 400, //ms'
+                auto: false,
+                loop: false,
+                slideEndAnimation: true,
+                pause: 2000,
+
+                keyPress: false,
+                controls: true,
+                prevHtml: '',
+                nextHtml: '',
+
+                rtl: false,
+                adaptiveHeight: false,
+                // adaptiveHeight: true,
+
+                vertical: false,
+                verticalHeight: 500,
+                vThumbWidth: 100,
+
+                thumbItem: 10,
+                pager: true,
+                gallery: false,
+                galleryMargin: 5,
+                thumbMargin: 5,
+                currentPagerPosition: 'middle',
+
+                enableTouch: true,
+                enableDrag: true,
+                freeMove: true,
+                swipeThreshold: 40,
+
+                responsive: [],
+
+                onBeforeStart: function (el) {},
+                onSliderLoad: function (el) {},
+                onBeforeSlide: function (el) {},
+                onAfterSlide: function (el) {},
+                onBeforeNextSlide: function (el) {},
+                onBeforePrevSlide: function (el) {}
+            });
+        });
+    </script>
+
+</body>
+
+</html>
