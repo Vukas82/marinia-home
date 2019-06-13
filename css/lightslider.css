@@ -198,8 +198,9 @@
     width: 32px;
     display: block;
     top: 50%;
-    height: 32px;
-    background-image: url('../img/controls.png');
+    height: 62px;
+    /* background-image: url('../img/controls.png'); */
+    /* background: red; */
     cursor: pointer;
     position: absolute;
     z-index: 99;
@@ -208,21 +209,31 @@
     -webkit-transition: opacity 0.35s linear 0s;
     transition: opacity 0.35s linear 0s;
 
-    display: none;
+    /* display: none; */
 }
 
 .lSAction>a:hover {
     opacity: 1;
+    /* background-color: #fff; */
 }
 
 .lSAction>.lSPrev {
     background-position: 0 0;
-    left: 10px;
+    left: 150px;
+    background-image: url('../images/left-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .lSAction>.lSNext {
-    background-position: -32px 0;
-    right: 10px;
+    /* background-position: -62px 0; */
+    right: 150px;
+    background-image: url('../images/left-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg)
 }
 
 .lSAction>a.disabled {
