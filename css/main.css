@@ -167,7 +167,7 @@ body>div>header>div.header__wrap>div>div.nav__desno>ul>li:nth-child(1)>a>span {
     left: 229px; */
 
     bottom: -30px;
-    left: -15px;
+    left: -2px;
 }
 
 #navbar>li:nth-child(6) {
@@ -1208,7 +1208,8 @@ body>div>header>div.header__wrap>div>nav>ul>li.dropdown>div::before {
     opacity: .9;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
     position: absolute;
     top: 60px;
     left: 50%;
