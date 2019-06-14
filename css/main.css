@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: auto;
     padding: 0;
@@ -60,7 +64,12 @@ body {
 .logo {
     position: absolute;
     left: -30px;
+    cursor: pointer;
+}
 
+.logo:hover {
+    transition: all .3s ease;
+    transform: scale(1.1);
 }
 
 .logo span img {
@@ -1213,10 +1222,12 @@ body>div>header>div.header__wrap>div>nav>ul>li.dropdown>div::before {
     color: #fff;
     list-style: none;
     line-height: 40px;
+
 }
 
 .navbar-list-expanded a {
     text-decoration: none;
+    transition: all .5s ease;
 }
 
 
@@ -1340,6 +1351,7 @@ body>div>header>div.header__wrap>div>nav>ul>li.dropdown>div::before {
     cursor: pointer;
     /* Add a mouse pointer on hover */
     padding: 15px;
+    transition: all .5 ease;
 
 }
 
