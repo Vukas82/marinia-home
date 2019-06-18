@@ -277,8 +277,6 @@ body>div>header>div.header__wrap>div>div.nav__desno>ul>li:nth-child(1)>a>span {
     background: #fff;
 }
 
-.inner__responsive {}
-
 .price {
     font-size: 28px;
     /* font-family: 'brandon_regular'; */
@@ -1071,20 +1069,57 @@ video {
     }
 
     .inner__1 {
-        top: 70px;
-        left: 20px;
+        /* top: 70px;
+        left: 20px; */
+        width: 100%;
+        /* background: red; */
+        position: relative;
+        left: 0px;
+        /* display: none; */
+
     }
 
+    .inner__1 h2 {
+        font-size: 1.1rem;
+    }
+
+    .lSSlideOuter .lSPager.lSpg>li a {
+        /* background-color: #222222; */
+        background: rgba(5, 5, 5, 0.082);
+        opacity: .22;
+    }
+
+
+    .lSSlideOuter .lSPager.lSpg {
+        left: 35% !important;
+        bottom: 0px !important;
+        /* background: rgba(5, 5, 5, 0.082); */
+
+        /* background: red; */
+    }
+
+    .lSSlideOuter .lSPager.lSpg>li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 3px !important;
+        width: 40px !important;
+
+    }
+
+    /* .picture {
+        height: 70vh;
+    } */
+
     .inner__1 p {
-        width: 25%;
-        padding: 3px;
-        background: #ffffff66
+        /* width: 60%; */
+        /* padding: 3px; */
+        /* background: #ffffff66 */
     }
 
     .inner__1 a {
         position: absolute;
-        bottom: -220%;
-        left: 0px;
+        bottom: 5%;
+        left: 70%;
 
         width: 100px;
         height: 36px;
@@ -1096,7 +1131,22 @@ video {
         font-size: 16px;
         padding-top: 10px;
     }
+
+    .categories {
+        padding-top: 20px;
+    }
+
+    /* .inner__responsive {
+        display: block;
+        width: 100%;
+        background: green;
+    } */
+
 }
+
+/* .picture {
+    float: left;
+} */
 
 @media (max-width: 575.98px) {
 
@@ -1111,9 +1161,9 @@ video {
             "img__6 ";
     }
 
-    .lSSlideOuter .lSPager.lSpg {
+    /* .lSSlideOuter .lSPager.lSpg {
         left: 30% !important;
-    }
+    } */
 
     /* 
     .img__1 img,
