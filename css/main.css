@@ -1192,6 +1192,11 @@ video {
             "img__6 ";
     }
 
+    .lSSlideOuter .lSPager.lSpg {
+        width: 100%;
+        background-color: #f1f1f1;
+    }
+
     /* .lSSlideOuter .lSPager.lSpg {
         left: 30% !important;
     } */

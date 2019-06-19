@@ -96,7 +96,8 @@
     left: 50% !important;
     transform: translateX(-50%) !important;
     bottom: 5%;
-    /* background-color: aqua; */
+    /* width: 100%;
+    background-color: #f1f1f1; */
 }
 
 .lSSlideOuter .lSPager.lSpg>li {
