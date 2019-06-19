@@ -1,6 +1,6 @@
 // navabar
 function toggle(id, id2) {
-    console.log(btn.classList.value)
+    // console.log(btn.classList.value)
 
     if (btn.classList.value === "small-drop-btn") {
         btn.classList.add('is-active');

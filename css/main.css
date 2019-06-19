@@ -122,15 +122,45 @@ body>div>header>div.header__wrap>div>div.nav__desno>ul>li:nth-child(3)>a>span {
 
 /* .nav__desno>ul>li:nth-child(3)>a>span>img { */
 .lupa {
-    width: 30px;
-    height: 30px;
+    /* width: 30px; */
+    height: 32px;
     position: absolute;
     bottom: -2px;
     left: -20px;
 }
 
-#Capa:hover .krug {
+/* .lupa:hover #Capa .krug {
     fill: #343434;
+} */
+
+/* .krug:hover {
+    filter: invert(1);
+} */
+
+/* body>div.grid>header>div.header__wrap>div>div.nav__desno>ul>li:nth-child(3)>a>span>svg>use {
+    fill: #343434;
+} */
+
+/* #Capa:hover .krug {
+    fill: #343434;
+} */
+/* #Capa .krug {
+    fill: green;
+} */
+/* use:hover {
+    fill: red;
+} */
+
+/* #Capa {
+    stroke-width: "4"
+} */
+
+#Capa:hover .krug {
+    fill: rgb(124, 124, 124)
+}
+
+.hidden {
+    /* display: none; */
 }
 
 /* .lupa:hover .krug {
@@ -204,6 +234,7 @@ body>div>header>div.header__wrap>div>div.nav__desno>ul>li:nth-child(1)>a>span {
 .slider {
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 .slider img {
