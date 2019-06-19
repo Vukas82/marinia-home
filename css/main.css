@@ -1173,6 +1173,10 @@ video {
         background: green;
     } */
 
+    .slider {
+        margin-top: 70px;
+    }
+
 }
 
 /* .picture {
